@@ -5,7 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Confman',
     VERSION_FROM      => 'lib/Confman.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {
+      'JSON' => 0,
+      'REST::Client' => 0,
+    }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Confman.pm', # retrieve abstract from module
        AUTHOR         => 'Masahji Stewart <masahji@apple.com>') : ()),

@@ -5,7 +5,7 @@ use warnings;
 
 use Confman::API;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $DEFAULT;
 
 sub load_conf_set {

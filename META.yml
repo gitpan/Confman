@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Confman
-version:            0.01
+version:            0.02
 abstract:           Perl library to interface with Confman 
 author:
     - Masahji Stewart <masahji@apple.com>
@@ -10,7 +10,9 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    JSON:          0
+    REST::Client:  0
 no_index:
     directory:
         - t
