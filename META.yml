@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:               Confman
-version:            0.03
+version:            0.04
 abstract:           Perl library to interface with Confman 
 author:
-    - Masahji Stewart <masahji@apple.com>
+    - Masahji Stewart <masahji@synctree.com>
 license:            unknown
 distribution_type:  module
 configure_requires:
